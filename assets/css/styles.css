@@ -357,7 +357,7 @@ input{
     border: none;
     box-shadow: 15px 15px 40px 10px lightgray;
 }
-a{
+article a{
     font-size: 30px;
     text-decoration: none;
     border: 1px solid #ff3571;
