@@ -1,0 +1,384 @@
+/* font-family: 'Roboto', sans-serif;
+Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000 */
+
+
+/* TheDesignProject by a WebDesigner
+How to become a better designer?
+A challenge to improve your product design skills by solving problems in your daily life.
+SCROLL TO SEE MORE —
+Every idea starts with a need
+Earlier this year (January 2018). I started to think about how I could improve my design skills and attract more customers. I wanted to start designing some ideas that for a long time I had only on paper and stored on my cell phone, I decided to look for some challenge, something that makes more sense with what I thought. I saw that many designers (especially in dribbble) made a daily user interface, I really liked the idea, but the problem was that the result was just something nice and did not solve any problem.
+After several weeks of sticking to this challenge, I learned a lot
+Start with asking 
+why You will start seeing things differently and coming up with more effective ways of achieving goals.
+Your ideas will have more value 
+By looking at problems from a different perspective, your ideas will be fresher and more valuable.
+Design solutions with love 
+Only when you experience a problem yourself do you understand the frustration of the users and resolve to end it.
+Share and show your work 
+As designers, we are often afraid of showing work that’s not finished or doesn’t look perfect. You will learn to accept feedback and learn from it. */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     font-family: 'Roboto', sans-serif;
+}
+.Design{
+    background: url(../img/ilustracion1.png) right / 60% no-repeat;
+    height: 80vh;
+}
+.div-disign1{
+    display: flex;
+    padding-top: 2%;
+}
+.div-disign1 img{
+    width: 3.5vh;
+    margin-right: 1vh;
+    margin-left: 2%;
+    position: fixed;
+}
+.div-disign1 header{
+    margin-left: 4.5%;
+}
+.div-disign2{
+     display: flex;
+    align-items: center;
+    margin-left: 7%;
+}
+.div-disign2 img{
+    width: 60%;
+}
+.div-disign2 header{
+    width: 60%;
+    
+}
+.div-disign2 h1{
+    font-size: 5rem;
+    margin-top: 40%;
+}
+.div-disign2 p{
+    font-size: 25px;
+    margin-top: 4%; 
+    margin-bottom: 20%;
+    color: #0b0c17;
+}
+.div-disign2 p::after{
+    content: url(../img/rocket.png);
+     margin-left: 2%;   
+}
+.div-disign2 a{
+    color: #ff3571;
+    text-decoration: none;
+    font-size: 13px; 
+}
+
+
+
+.img{
+    background: url(../img/images.jpg) center / 100% no-repeat;
+    height: 100vh;
+}
+
+
+
+
+.every{
+    height: 100vh;
+}
+.idea{
+    display: flex;
+    justify-content: space-around;
+}
+.idea h1{
+    font-size: 5rem;
+    width: 24%;  
+}
+.idea p{
+    font-size: 18px;
+    color: #0b0c17;
+    width: 33%;
+    line-height: 40px; 
+}
+.after{
+    margin-left: 11%; 
+    font-size: 5rem;
+    margin-top: 20%;
+    width: 51%;
+}
+.idea span::after{
+    content: url(../img/idea.png);
+}
+
+.start{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.start h1 , .start p{
+
+    
+    width: 60%;
+    margin-left: 20%;
+    line-height: 40px;
+}
+.start-with {
+    
+    margin-bottom: 20%;
+    width: 95%;
+   
+} 
+.you{
+    
+    width: 75%;
+    margin-left: 3%;
+}
+.design{
+    
+    margin-bottom: 16%;
+    width:65% ;
+}
+.share{
+    
+    width: 65%;
+    
+}
+.start{
+    margin-left: 20vh;
+}
+.start-you{
+    margin-left: 10%;
+}
+.start p{
+    color: #0b0c17;
+}
+.start h1{
+    font-size: 20px;
+    
+}
+.start-you img{
+    height: 3vh;
+   
+}
+.start-you #span{
+    display: flex;
+    
+    width: 70%;
+    margin-left: 14%;
+}
+.start-you #span h1{
+    margin-left: 3%;
+}
+.design-share img{
+    height: 3vh;
+   
+}
+.design-share #span{
+    display: flex;
+    
+    width: 70%;
+    margin-left: 14%;
+}
+.design-share #span h1{
+    margin-left: 3%;
+}
+.design h1{
+    
+    width: 80%;
+}
+.article-div{
+    margin-left: 28%;
+    width:43%;
+    text-align: center;
+}
+.article-div h1{
+    font-size: 4rem;
+    margin-bottom: 6%;
+}
+.article-div p{
+    font-size: 25px;
+    margin-bottom: 10%;
+    line-height: 40px;
+}
+
+
+
+.S01{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#D-image1{
+    background: url(../img/step01.png) left / 100% no-repeat;
+    height: 100vh;
+    width: 35%;   
+    margin-left: 5%;
+}
+.S01 .D01{  
+    width: 40%;
+}
+.S01 .D01 h1{
+    font-size: 7rem;
+    color: #dddddd;
+    margin-bottom: 20%;
+}
+.S01 .D01 h3{
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.S01 .D01 p{
+    color: #0b0c17;
+    line-height: 40px;
+    font-size: 18px;
+    width: 65%;
+}
+
+
+
+.S02{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#D-image2{
+    background: url(../img/step02.png) right / 100% no-repeat;
+    height: 100vh;
+    width: 45%;   
+    margin-right: 5%;
+    
+}
+.S02 .D02{  
+    width: 40%;
+    margin-left: 8%;
+}
+.S02 .D02 h1{
+    font-size: 7rem;
+    color: #dddddd;
+    margin-bottom: 20%;
+}
+.S02 .D02 h3{
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.S02 .D02 p{
+    color: #0b0c17;
+    line-height: 40px;
+    font-size: 18px;
+    width: 70%;
+}
+
+
+
+.S03{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#D-image3{
+    background: url(../img/step03.png) left / 100% no-repeat;
+    height: 100vh;
+    width: 35%;   
+    margin-left: 5%;
+}
+.S03 .D03{  
+    width: 40%;
+}
+.S03 .D03 h1{
+    font-size: 7rem;
+    color: #dddddd;
+    margin-bottom: 20%;
+}
+.S03 .D03 h3{
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.S03 .D03 p{
+    color: #0b0c17;
+    line-height: 40px;
+    font-size: 18px;
+    width: 70%;
+}
+
+
+
+.S04{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#D-image4{
+    background: url(../img/step04.png) right / 100% no-repeat;
+    height: 100vh;
+    width: 45%;   
+    margin-right: 5%;
+    
+}
+.S04 .D04{  
+    width: 40%;
+    margin-left: 8%;
+}
+.S04 .D04 h1{
+    font-size: 7rem;
+    color: #dddddd;
+    margin-bottom: 20%;
+}
+.S04 .D04 h3{
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.S04 .D04 p{
+    color: #0b0c17;
+    line-height: 40px;
+    font-size: 18px;
+    width: 70%;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    
+    padding: 1% 8%;
+    font-size: 30px;
+    margin-bottom: 3%;
+    border: none;
+    box-shadow: 15px 15px 40px 10px lightgray;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+    border: 1px solid #ff3571;
+    padding: 1% 4%;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #ff3571;
+    margin-top: 2%;
+    
+}
+footer{
+    font-size: 30px;
+    margin-top: 7%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+footer span{
+    font-size: 40px;
+    color:rgb(189, 125, 85) ;
+}
+footer p::after{
+    content: url(../img/love.png);
+    margin-left: 1%;
+}
